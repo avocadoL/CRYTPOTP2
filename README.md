@@ -92,12 +92,3 @@ decrypted = des_decrypt(encrypted, key)
 - Python 3.6 ou supérieur
 - Aucune dépendance externe requise
 
-## Limitations
-
-1. Cette implémentation est en Python pur, elle peut donc être moins rapide que les implémentations optimisées.
-2. L'implémentation privilégie la clarté et la lisibilité plutôt que la performance.
-3. DES est considéré comme cryptographiquement faible selon les standards modernes et ne doit pas être utilisé pour des communications sécurisées.
-
-## Licence
-
-Ce code est fourni à des fins éducatives uniquement. Utilisation à vos propres risques. 
