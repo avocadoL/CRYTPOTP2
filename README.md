@@ -68,12 +68,6 @@ Cette implémentation Python de l'algorithme de chiffrement DES (Data Encryption
 3. **Gestion des Clés** : Remplissage/troncature automatique pour assurer une longueur de clé de 64 bits.
 4. **Conformité aux Standards** : Implémente tous les composants DES selon la spécification.
 
-### Notes de Sécurité
-
-1. L'implémentation utilise les tables et permutations DES standard.
-2. Les clés sont traitées pour avoir exactement 8 caractères (64 bits).
-3. Cette implémentation est à but éducatif et ne doit pas être utilisée en production.
-
 ## Exemple
 
 ```python
